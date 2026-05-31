@@ -1,0 +1,43 @@
+{
+  "fields": {
+    "case_id": "case_id",
+    "event": "event",
+    "timestamp": "timestamp",
+    "grade_er": "grade_er"
+  },
+  "profile_rules": {
+    "outstanding_grade_gt": 5,
+    "underperforming_grade_lt": 1,
+    "min_underperforming_events": 66
+  },
+  "event_aliases": {
+    "add_attribute": ["add attrib.", "add attribute"],
+    "del_attribute": ["del attrib.", "del attribute"],
+    "add_relation": ["add relation"],
+    "del_relation": ["del relation"],
+    "add_entity": ["add entity"],
+    "del_entity": ["del entity"],
+    "cardinality_0": ["cardin. 0", "cardinality 0"],
+    "cardinality_1": ["cardin. 1", "cardinality 1"],
+    "cardinality_N": ["cardin. N", "cardinality N"],
+    "cardinality_null": ["cardin. null", "cardinality null"],
+    "link_attribute_relation": ["link att-rel", "link attribute-relation"],
+    "link_attribute_entity": ["link att-ent", "link attribute-entity"],
+    "link_entity_relation": ["link ent-rel", "link entity-relation"],
+    "unlink_attribute_relation": ["unlink att-rel", "ulnk att-rel", "unlink attribute-relation"],
+    "unlink_attribute_entity": ["unlink att-ent", "ulnk att-ent", "unlink attribute-entity"],
+    "unlink_entity_relation": ["unlink ent-rel", "ulnk ent-rel", "unlink entity-relation"]
+  },
+  "selected_indicators": [
+    "total_events",
+    "add_attribute",
+    "del_attribute",
+    "del_relation",
+    "cardinality_1",
+    "cardinality_N",
+    "cardinality_actions",
+    "cardinality_switches_1N",
+    "link_attribute_relation",
+    "del_entity"
+  ]
+}

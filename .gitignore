@@ -1,0 +1,7 @@
+.vscode
+data/*
+!data/example-dataset.csv
+outputs/*
+!outputs/.gitkeep
+config/*
+!config/example-config.json
